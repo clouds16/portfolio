@@ -33,7 +33,7 @@ function About() {
                     
 
                     <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
-                        <h2> Santa Barbara Public Works </h2>
+                        <h2 className=""> Santa Barbara Public Works </h2>
                         <h3> Santa Barbara, CA </h3>
                         <h2> August 2015 - August 2018 (Part Time) </h2>
                         <h2> Civil Engineering/Tech  </h2>
@@ -74,7 +74,10 @@ function About() {
             </section>
 
 
+
+
             <section className="h-screen bg-green-300 p-20 snap-start ">
+            
 
             </section>
 
