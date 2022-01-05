@@ -28,8 +28,13 @@ function Home() {
             </section>
 
 
-            <section className="h-screen w-screen bg-green-300 p-20 snap-start ">
-                <h2> Jump to Projects </h2>
+            <section className="h-screen w-screen bg-amber-50 p-20 snap-start flex place-items-center justify-center">
+                <div className=" h-3/4 w-3/4 bg-purple-200 rounded-3xl grid grid-cols-3  ">
+                    <div className="h-300 w-300 bg-cyan-100 m-5"> item 1 </div>
+                    <div className="h-300 w-300 bg-cyan-100 m-5"> item 2 </div>
+                    <div className="h-300 w-300 bg-cyan-100 m-5"> item 3 </div>
+                    
+                </div>
             </section>
 
             <section className="h-screen w-screen bg-green-300 p-20 snap-start ">
