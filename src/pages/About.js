@@ -9,7 +9,7 @@ function About() {
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen flex " >
 
-            <div className=" flex-1 bg-blue-100 h-screen fixed flex flex-col "> 
+            <div className=" flex-1 bg-blue-100 h-screen  flex flex-col"> 
                 <button className="" onClick={printOut}> Jump To Education </button>
                 <button> Jump To Work History </button>
                 <a href="#work-experience" > Jump To work experience</a>
@@ -19,7 +19,12 @@ function About() {
 
 
 
-            <section className="flex-1 h-screen "> 
+            <section className="flex-6 h-screen "> 
+
+            <section className="h-screen bg-green-300 p-20 snap-start ">
+                <h2> Resume</h2>
+            </section>
+
             <section className="h-screen bg-blue-400 p-20 snap-start" id="education">
                 <h2 className=""> Education </h2>
 
@@ -96,8 +101,12 @@ function About() {
                 <h2> Skills </h2>
             </section>
 
+            <section className="h-screen bg-purple-200 p-20 snap-start ">
+                <h2> Hobbies</h2>
+            </section>
 
-            <section className="h-screen bg-green-300 p-20 snap-start ">
+
+            <section className="h-screen bg-amber-100 p-20 snap-start ">
                 <h2> Resume</h2>
             </section>
             

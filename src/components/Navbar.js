@@ -7,8 +7,8 @@ const Navbar = () => {
 
     return (
         <div className="w-full h-auto bg-indigo-400 font-serif text-white flex fixed">
-            
-                <div className={navbar}> <a className="float-left  " href="/"> Home </a></div>
+                <div className="h-full w-auto p-4 hover:bg-purple-500  hover:text-black overflow-hidden font-sans text-2xl"> Hector Alvarez </div>
+                <div className={navbar}> <a className="float-left" href="/"> Home </a></div>
                 <div className={navbar} ><a className="float-left " href="/about"> About </a></div>
                 <div className={navbar} ><a className="float-left" href="/projects"> Projects </a></div>
                 <div className={navbar} ><a className="float-right" href="/contact"> Contact </a></div>
