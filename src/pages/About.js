@@ -2,9 +2,25 @@ import React , {useState, useEffect , useContext} from 'react'
 
 
 function About() {
+    function printOut(){
+        console.log("Button work")
+    }
+
     return(
-        <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen">
-            <section className="h-screen bg-blue-400 p-20 snap-start">
+        <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen flex " >
+
+            <div className=" flex-1 bg-blue-100 h-screen fixed flex flex-col "> 
+                <button className="" onClick={printOut}> Jump To Education </button>
+                <button> Jump To Work History </button>
+                <a href="#work-experience" > Jump To work experience</a>
+                <button> Jump To Skills  </button>
+                <button> Jump Resume  </button>
+            </div>
+
+
+
+            <section className="flex-1 h-screen "> 
+            <section className="h-screen bg-blue-400 p-20 snap-start" id="education">
                 <h2 className=""> Education </h2>
 
                 <div className="h-full grid grid-cols-2 gap-4">
@@ -27,7 +43,7 @@ function About() {
             </section>
             
 
-            <section className="h-screen bg-red-300 p-20 snap-start ">
+            <section className="h-screen bg-red-300 p-20 snap-start " id="work-experience">
                 <div className="">Work Experience</div>
                 <div className="h-full grid grid-rows-3 gap-4">
                     
@@ -77,13 +93,16 @@ function About() {
 
 
             <section className="h-screen bg-green-300 p-20 snap-start ">
-            
-
+                <h2> Skills </h2>
             </section>
 
 
-
-
+            <section className="h-screen bg-green-300 p-20 snap-start ">
+                <h2> Resume</h2>
+            </section>
+            
+            
+            </section>
         </section>
         
     )
