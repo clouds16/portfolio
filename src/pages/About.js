@@ -41,7 +41,7 @@ function About() {
                         </div>
                         
                         <div className="flex-1 flex place-items-center justify-center">
-                            <img className="h-60 w-auto" src={require('../assets/ucilogo.jpeg')} />
+                            <img className="h-full w-auto" src={require('../assets/ucilogo.jpeg')} />
                         </div>
                     </div>
                     
