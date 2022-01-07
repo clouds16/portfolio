@@ -52,8 +52,8 @@ function Home() {
                 <div className="h-4/5 w-4/5 bg-purple-200 rounded-3xl flex justify-center place-items-center ">
                     <div className="flex-1 m-4 flex flex-col "> 
                         <h1 className="text-4xl font-serif justify-left">Welcome </h1>
-                        <h2>Meet your new Software Engineer/Developer</h2>
-                        <div title="Icons">
+                        <h2 className='m-3'>Meet your new Software Engineer/Developer</h2>
+                        <div className='m-3' title="Icons">
                             <button> <FontAwesomeIcon icon={faFacebookF} /></button>
                         </div>
                     </div>
@@ -65,19 +65,19 @@ function Home() {
             </section>
         
 
-            <section className="h-screen w-screen font-sansbg-red-300 p-20 snap-start flex place-items-center justify-center overflow-scroll" id="skills">
-                <div className="h-full w-full flex flex-col bg-sky-200 place-items-center justify-center">
+            <section className="h-screen w-screen bg-gray-200 p-20 snap-start flex place-items-center justify-center overflow-scroll" id="skills">
+                <div className="h-full w-full flex flex-col place-items-center justify-center">
                     <div className="font-sans text-4xl "> Skills </div>
                     <div className="h-full w-full grid grid-cols-3 grid-gap-5 p-5" > 
                     {
                     skills.map( (item)=> {
                         return (
-                            <div className="h-5/6 w-5/6 flex flex-col grow flex-wrap place-items-center justify-center bg-yellow-200 p-2 m-3 rounded-3xl  overflow-y-hidden hover:scale-125" id="card">
-                                <div className="flex-1 h-full w-full bg-red-200 overflow-y-hidden flex flex-col justify-center place-items-center" >
+                            <div className="h-5/6 w-5/6 flex flex-col grow flex-wrap place-items-center justify-center bg-white p-2 m-3 rounded-3xl shadow-2xl overflow-y-hidden hover:scale-125 hover:transition-transform hover:bg-amber-300 hover:text-white" id="card">
+                                <div className="flex-1 h-full w-full  overflow-y-hidden flex flex-col justify-center place-items-center" >
                                     <h2 className=" font-serif text-2xl">{item.title}</h2>
                                     <h2 className= "font-serif text-base ">{item.detail}</h2>
                                 </div>
-                                <div className="flex-1 h-full w-full bg-green-400 overflow-y-hidden ">
+                                <div className="flex-1 h-full w-full overflow-y-hidden rounded-xl ">
                                      <img className="object-cover" src={item.image} /> 
                                 </div>
                             </div>
