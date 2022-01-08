@@ -27,8 +27,8 @@ function About() {
                     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2">
                         <div class="flex flex-row-reverse md:contents">
                         <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 1 Orientation</h3>
-                            <p class="text-gray-600">Welcome to the campus, introduction and get started with the tour.</p>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2018</h3>
+                            <p class="text-gray-600">Graduated with a Bachelors in Mechanical Engineering. Began working in Santa Barbara Public Works as a Civil Engineer Tech</p>
                         </div>
 
                         <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -50,15 +50,15 @@ function About() {
                         </div>
 
                         <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 2 Sessions</h3>
-                            <p class="text-gray-600">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2019</h3>
+                            <p class="text-gray-600">Began working as a Mechanical/Design Engineer at North American Fire Hose</p>
                         </div>
                         </div>
 
                         <div class="flex flex-row-reverse md:contents">
                         <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 3 Sessions</h3>
-                            <p class="text-gray-600">Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2020</h3>
+                            <p class="text-gray-600">Was promoted to Manufacturing Engineer with Managerial responsibilties. Began Masters Program in Software Development in late 2020</p>
                         </div>
 
                         <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -80,8 +80,8 @@ function About() {
                         </div>
 
                         <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 4 Wrap-up</h3>
-                            <p class="text-gray-600">Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2021</h3>
+                            <p class="text-gray-600"> Left Manufacturing Engineer position to finish masters program at an accelerated rate. Graduated in December of 2021</p>
                         </div>
                         </div>
                     </div>
