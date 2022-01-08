@@ -10,22 +10,81 @@ function About() {
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
             <section className="h-screen bg-amber-50 p-20 snap-start  flex place-items-center justify-center ">
-                <div className="h-3/4 w-1/2 bg-gray-50 rounded-3xl flex justify-center place-items-center flex-col p-5 " > 
+                <div className="h-3/4 w-5/6 bg-gray-50 rounded-3xl flex justify-center place-items-center flex-col p-5 " > 
                     <h2 className="font-serif text-5xl m-4">About me </h2>
                     <p>
-                    I am a recent graduate of Masters Program in Softare Development (GPA 4.0).
-                    I am a highly motivated software engineer looking to bring my perspective to a company that thrives on presenting their employees with challenges everyday.
+                    I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018.
+
+                    <br/>
+                    I 
 
                     </p>
                 </div>
             </section>
 
             <section className="h-screen bg-amber-50 p-20 snap-start  flex place-items-center justify-center " id="timeline">
-                <div className="h-3/4 w-1/2 bg-gray-50 rounded-3xl flex justify-center place-items-center flex-col " > 
-                    <h2 className="font-serif text-5xl"> Timeline </h2>
-                    <p>
-                        Timeline Items
-                    </p>
+                <div class="min-h-screen flex items-center justify-center">
+                    <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2">
+                        <div class="flex flex-row-reverse md:contents">
+                        <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 1 Orientation</h3>
+                            <p class="text-gray-600">Welcome to the campus, introduction and get started with the tour.</p>
+                        </div>
+
+                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                            <div class="h-full w-6 flex items-center justify-center">
+                            <div class="h-full w-0.5 bg-gray-100 pointer-events-none"></div>
+                            </div>
+
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 border-2 border-blue-600 rounded-full bg-gray-100 shadow"></div>
+                        </div>
+                        </div>
+
+                        <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                            <div class="h-full w-0.5 bg-gray-100 pointer-events-none"></div>
+                            </div>
+
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 border-2 border-blue-600 rounded-full bg-gray-100 shadow"></div>
+                        </div>
+
+                        <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 2 Sessions</h3>
+                            <p class="text-gray-600">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                        </div>
+                        </div>
+
+                        <div class="flex flex-row-reverse md:contents">
+                        <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 3 Sessions</h3>
+                            <p class="text-gray-600">Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                        </div>
+
+                        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                            <div class="h-full w-6 flex items-center justify-center">
+                            <div class="h-full w-0.5 bg-gray-100 pointer-events-none"></div>
+                            </div>
+
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 border-2 border-blue-600 rounded-full bg-gray-100 shadow"></div>
+                        </div>
+                        </div>
+
+                        <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                            <div class="h-full w-0.5 bg-gray-100 pointer-events-none"></div>
+                            </div>
+
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 border-2 border-blue-600 rounded-full bg-gray-100 shadow"></div>
+                        </div>
+
+                        <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
+                            <h3 class="font-semibold text-xl mb-1 text-gray-900">Day 4 Wrap-up</h3>
+                            <p class="text-gray-600">Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -62,54 +121,11 @@ function About() {
             </section>
             
 
-            <section className="h-screen bg-red-300 p-20 snap-start " id="work-experience">
-                <div className="">Work Experience</div>
-                <div className="h-full grid grid-rows-3 gap-4">
-                    
 
-                    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
-                        <h2 className=""> Santa Barbara Public Works </h2>
-                        <h3> Santa Barbara, CA </h3>
-                        <h2> August 2015 - August 2018 (Part Time) </h2>
-                        <h2> Civil Engineering/Tech  </h2>
-                        <ul className="p-5">
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li> 
-                        </ul>
-                    </div>
-
-                    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
-                        <h2> Santa Barbara Public Works </h2>
-                        <h3> Santa Barbara, CA </h3>
-                        <h2> August 2015 - August 2018 (Part Time) </h2>
-                        <h2> Civil Engineering/Tech  </h2>
-                        <ul className="p-5">
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li> 
-                        </ul>
-                    </div>
-
-
-                    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
-                        <h2> North American Fire Hose Corp. </h2>
-                        <h2> Santa Maria, CA</h2>
-                        <h3> March 2019 - May 2021 </h3>
-                        <h2> Mechanical/ Manufacturing Engineer</h2>
-                       
-                        <ul className="p-5">
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li>
-                            <li className="list-disc"> Item Item Item</li> 
-                        </ul>
-                    </div>
-
-                </div>
-            </section>
 
             <section className="h-screen bg-green-300 p-20 snap-start ">
-                <h2> Skills </h2>
+                
+
             </section>
 
             <section className="h-screen bg-purple-200 p-20 snap-start ">
@@ -136,3 +152,50 @@ export default About ;
 // <button> Jump To Skills  </button>
 // <button> Jump Resume  </button>
 // </div>
+
+
+{/* <section className="h-screen bg-red-300 p-20 snap-start " id="work-experience">
+<div className="">Work Experience</div> */}
+{/* <div className="h-full grid grid-rows-3 gap-4">
+    
+
+    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
+        <h2 className=""> Santa Barbara Public Works </h2>
+        <h3> Santa Barbara, CA </h3>
+        <h2> August 2015 - August 2018 (Part Time) </h2>
+        <h2> Civil Engineering/Tech  </h2>
+        <ul className="p-5">
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li> 
+        </ul>
+    </div>
+
+    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
+        <h2> Santa Barbara Public Works </h2>
+        <h3> Santa Barbara, CA </h3>
+        <h2> August 2015 - August 2018 (Part Time) </h2>
+        <h2> Civil Engineering/Tech  </h2>
+        <ul className="p-5">
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li> 
+        </ul>
+    </div>
+
+
+    <div className="m-5 card bg-red-100 border-r-8 rounded-lg text-left">
+        <h2> North American Fire Hose Corp. </h2>
+        <h2> Santa Maria, CA</h2>
+        <h3> March 2019 - May 2021 </h3>
+        <h2> Mechanical/ Manufacturing Engineer</h2>
+       
+        <ul className="p-5">
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li>
+            <li className="list-disc"> Item Item Item</li> 
+        </ul>
+    </div>
+
+</div>
+</section> */}
