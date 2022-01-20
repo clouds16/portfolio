@@ -10,17 +10,28 @@ function About() {
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
-            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
-                <div className="h-3/4 w-5/6 bg-gray-50 rounded-3xl flex justify-center place-items-center flex-col p-5 " > 
-                    <h2 className="font-serif text-5xl m-4">About me </h2>
-                    <p>
-                    I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018.
+            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
+                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white " > 
+                    <div className="flex-1 h-full w-full overflow-y-hidden text-white flex place-items-center  justify-center">
+                      
+                        <img className="h-full w-auto rounded-full" src={require('../assets/selfpic.jpeg')} />
+                        
+                        
+                    </div>
+                    
+                    <div className="flex-1 overflow-y-hidden ">
+                        <h2 className="font-serif text-5xl m-4">About me </h2>
+                        <p>
+                            I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018.
+                        <br/>
+                            I 
+                        </p>
+                    </div>
 
-                    <br/>
-                    I 
-
-                    </p>
+                    
                 </div>
+
+                
             </section>
 
             <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center " id="timeline">
@@ -90,31 +101,46 @@ function About() {
             </section>
 
             <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-col place-items-center justify-center" id="education">
-                <h2 className=""> Education </h2>
+                <h2 className="text-white text-6xl font-mono"> Education </h2>
 
-                <div className="h-5/6 w-5/6 grid grid-cols-2 gap-4">
-                    <div className="m-5 card  bg-gray-200 rounded-lg flex flex-col">
+                <div className="h-4/5 w-4/5 grid grid-cols-3 gap-4 text-white">
+                    <div className="m-5 card rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
-                            <h2> University of California, Irvine  </h2>
-                            <h3> September 2015 - September 2018</h3>
-                            <h2> Bachelors of Science, Mechanical Engineering </h2>
+                            <h3 className=" text-3xl font-bold"> Santa Barbara City College </h3>
+                            <h2 className="font-medium"> Associates Degrees in Engineering, Math, Physics </h2>
+                            <h2 className="italic"> August 2012 - June 2015 </h2>
+                            <h2 className="font-medium"> Active in LeaderShip groups SHPE, and Robotics Club</h2>
                         </div>
                         
                         <div className="flex-1 flex place-items-center justify-center overflow-y-hidden">
-                            <img className="h-full w-auto" src={require('../assets/ucilogo.jpeg')} />
+                            <img className="h-full w-auto rounded-full" src={require('../assets/sbcc.jpeg')} />
                         </div>
                     </div>
                     
-                    <div className="m-5 card bg-gray-200 rounded-lg flex flex-col">
+                    
+                    <div className="m-5 card  rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
-                            <h2> Maryville University of Saint Louis  </h2>
-                            <h3> September 2020 - December 2021 </h3>
-                            <h2> Masters of Science, Software Development</h2>
-                            <h2> Graduated with Honors, GPA : 4.0</h2>
+                            <h3 className=" text-3xl font-bold"> University of California, Irvine  </h3>
+                            <h2 className="font-medium"> Bachelors of Science, Mechanical Engineering </h2>
+                            <h2 className="italic"> September 2015 - September 2018</h2>
+                            <h2 className="font-medium"> Active in LeaderShip groups SHPE, UAV Design and Electric Vehicle Groups</h2>
                         </div>
                         
                         <div className="flex-1 flex place-items-center justify-center overflow-y-hidden">
-                            <img className="cover " src={require('../assets/maryville.jpeg')} />
+                            <img className="h-full w-auto rounded-full" src={require('../assets/ucilogo.jpeg')} />
+                        </div>
+                    </div>
+                    
+                    <div className="m-5 card rounded-lg flex flex-col">
+                        <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
+                            <h3 className=" text-3xl font-bold"> Maryville University of Saint Louis  </h3>
+                            <h2 className="font-medium"> Masters of Science, Software Development</h2>
+                            <h2 className="italic"> September 2020 - December 2021 </h2>
+                            <h2 className="font-medium"> Graduated with Honors, GPA : 4.0</h2>
+                        </div>
+                        
+                        <div className="flex-1 flex place-items-center justify-center overflow-y-hidden">
+                            <img className="h-full w-auto rounded-full" src={require('../assets/maryville.jpeg')} />
                         </div>
                     </div>
 
