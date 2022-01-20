@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <div className="w-full h-auto  bg-slate-700 font-serif text-white flex fixed  justify-left place-items-center">
-                <div className="h-full w-auto p-2  overflow-hidden font-sans text-xl mx-10"> Hector Alvarez </div>
+                <div className="h-full w-auto p-2  overflow-hidden font-sans text-xl mx-10 sm:text-black"> Hector Alvarez </div>
                 <div className={navbar}> <a className="float-left" href="/"> Home </a></div>
                 <div className={navbar} ><a className="float-left " href="/about"> About </a></div>
                 <div className={navbar} ><a className="float-left" href="/projects"> Projects </a></div>

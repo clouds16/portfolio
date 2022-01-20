@@ -33,8 +33,8 @@ function About() {
                 
             </section>
 
-            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center " id="timeline">
-                <div class="min-h-screen flex items-center justify-center">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center overflow-y-hidden " id="timeline">
+                <div class="min-h-screen flex items-center justify-center overflow-scroll ">
                     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2">
                         <div class="flex flex-row-reverse md:contents">
                         <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
@@ -102,7 +102,7 @@ function About() {
             <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-col place-items-center justify-center" id="education">
                 <h2 className="text-white text-6xl font-mono"> Education </h2>
 
-                <div className="h-4/5 w-4/5 grid grid-cols-3 gap-4 text-white">
+                <div className="h-4/5 w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white overflow-scroll scroll-m-0">
                     <div className="m-5 card rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
                             <h3 className=" text-3xl font-bold"> Santa Barbara City College </h3>

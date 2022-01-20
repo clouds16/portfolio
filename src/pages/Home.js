@@ -48,8 +48,8 @@ function Home() {
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen  ">
 
-            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex place-items-center justify-center text-white">
-                <div className="h-4/5 w-4/5 rounded-3xl flex justify-center place-items-center ">
+            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-row sm:flex- place-items-center justify-center text-white ">
+                <div className="h-4/5 w-4/5 rounded-3xl flex justify-center place-items-center overflow-scroll">
                     <div className="flex-1 m-4 flex flex-col "> 
                         <h1 className="text-4xl font-serif justify-left">Welcome </h1>
                         <h2 className='m-3'>Meet your new Software Engineer/Developer</h2>
@@ -70,10 +70,10 @@ function Home() {
             </section>
         
 
-            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex place-items-center justify-center overflow-scroll" id="skills">
-                <div className="h-full w-full flex flex-col place-items-center justify-center">
+            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex place-items-center justify-center " id="skills">
+                <div className="h-full w-full flex flex-col place-items-center justify-center sm:h-auto overflow-scroll">
                     <div className="font-sans text-4xl text-white"> Skills </div>
-                    <div className="h-full w-full grid grid-cols-3 grid-gap-5 p-5" > 
+                    <div className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-gap-2 md:grid-gap-5 p-5 " > 
                     {
                     skills.map( (item)=> {
                         return (
