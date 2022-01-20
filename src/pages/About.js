@@ -1,5 +1,6 @@
 import React , {useState, useEffect , useContext} from 'react' 
-
+import {Document, Page} from 'react-pdf'
+import resume from '../assets/resume.pdf'
 
 function About() {
     function printOut(){
@@ -88,23 +89,23 @@ function About() {
                 </div>
             </section>
 
-            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start" id="education">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-col place-items-center justify-center" id="education">
                 <h2 className=""> Education </h2>
 
-                <div className="h-full grid grid-cols-2 gap-4">
-                    <div className="m-5 card bg-red-100 rounded-lg flex flex-col">
+                <div className="h-5/6 w-5/6 grid grid-cols-2 gap-4">
+                    <div className="m-5 card  bg-gray-200 rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
                             <h2> University of California, Irvine  </h2>
                             <h3> September 2015 - September 2018</h3>
                             <h2> Bachelors of Science, Mechanical Engineering </h2>
                         </div>
                         
-                        <div className="flex-1 flex place-items-center justify-center">
+                        <div className="flex-1 flex place-items-center justify-center overflow-y-hidden">
                             <img className="h-full w-auto" src={require('../assets/ucilogo.jpeg')} />
                         </div>
                     </div>
                     
-                    <div className="m-5 card bg-red-100 rounded-lg flex flex-col">
+                    <div className="m-5 card bg-gray-200 rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
                             <h2> Maryville University of Saint Louis  </h2>
                             <h3> September 2020 - December 2021 </h3>
@@ -112,8 +113,8 @@ function About() {
                             <h2> Graduated with Honors, GPA : 4.0</h2>
                         </div>
                         
-                        <div className="flex-1 flex place-items-center justify-center">
-                            <img className="h-full w-full" src={require('../assets/maryville.jpeg')} />
+                        <div className="flex-1 flex place-items-center justify-center overflow-y-hidden">
+                            <img className="cover " src={require('../assets/maryville.jpeg')} />
                         </div>
                     </div>
 
@@ -125,6 +126,9 @@ function About() {
 
             <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start ">
                 
+                <Document file={resume}>
+                    <Page pageNumber={1} />
+                </Document>
 
             </section>
 
