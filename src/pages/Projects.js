@@ -48,8 +48,8 @@ function Projects() {
 
     return(
         <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 flex justify-center place-items-center ">
-            <div className="h-4/5 w-5/6 flex justify-center place-items-center " >
-                <div className="grid grid-cols-3 gap-5"> 
+            <div className="h-4/5 w-5/6 flex justify-center place-items-center overflow-scroll " >
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"> 
                 { projects.map( (item) => {
                     return (
 
