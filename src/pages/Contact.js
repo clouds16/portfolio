@@ -3,10 +3,10 @@ import React , {useState, useEffect , useContext} from 'react'
 
 function Contact() {
     return(
-        <section className="h-screen w-screen bg-red-500">
-            <div class="antialiased bg-gray-100">
+        <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900">
+            <div class="antialiased bg-gradient-to-b from-indigo-900 to-neutral-900">
                 <div class="flex w-full min-h-screen justify-center items-center">
-                    <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-green-700 w-full max-w-4xl p-5 sm:p-8 rounded-lg shadow-lg text-white overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-indigo-200 w-full max-w-4xl p-5 sm:p-8 rounded-lg shadow-lg text-white overflow-hidden">
                     <div class="flex flex-col md:flex-1 space-y-8 justify-between">
                         <div>
                         <h1 class="font-bold text-4xl tracking-wide">Get in Touch </h1>

@@ -53,9 +53,9 @@ function Projects() {
                 { projects.map( (item) => {
                     return (
 
-                    <div className="flex flex-col h-4/5 w-4/5 items-center bg-gray-100 opacity-50 m-4 rounded-2xl ">
-                        <img src={item.image} className="fill backdrop-blur-xl relative"></img>
-                        <div className="flex-5 absolute"> 
+                    <div className="flex flex-col h-4/5 w-4/5 items-center bg-gray-100  m-4 rounded-2xl ">
+                        <img src={item.image} className="fill "></img>
+                        <div className="flex-5 "> 
                             <h2 className="">  {item.name} </h2>
                             <h3> {item.description} </h3>
                             

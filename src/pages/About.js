@@ -9,7 +9,7 @@ function About() {
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
-            <section className="h-screen bg-amber-50 p-20 snap-start  flex place-items-center justify-center ">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
                 <div className="h-3/4 w-5/6 bg-gray-50 rounded-3xl flex justify-center place-items-center flex-col p-5 " > 
                     <h2 className="font-serif text-5xl m-4">About me </h2>
                     <p>
@@ -22,13 +22,13 @@ function About() {
                 </div>
             </section>
 
-            <section className="h-screen bg-amber-50 p-20 snap-start  flex place-items-center justify-center " id="timeline">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center " id="timeline">
                 <div class="min-h-screen flex items-center justify-center">
                     <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2">
                         <div class="flex flex-row-reverse md:contents">
                         <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2018</h3>
-                            <p class="text-gray-600">Graduated with a Bachelors in Mechanical Engineering. Began working in Santa Barbara Public Works as a Civil Engineer Tech</p>
+                            <h3 class="font-semibold text-xl mb-1 text-white">2018</h3>
+                            <p class="text-white">Graduated with a Bachelors in Mechanical Engineering. Began working in Santa Barbara Public Works as a Civil Engineer Tech</p>
                         </div>
 
                         <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -50,15 +50,15 @@ function About() {
                         </div>
 
                         <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2019</h3>
-                            <p class="text-gray-600">Began working as a Mechanical/Design Engineer at North American Fire Hose</p>
+                            <h3 class="font-semibold text-xl mb-1 text-white">2019</h3>
+                            <p class="text-white">Began working as a Mechanical/Design Engineer at North American Fire Hose</p>
                         </div>
                         </div>
 
                         <div class="flex flex-row-reverse md:contents">
                         <div class="w-full col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto border border-gray-300">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2020</h3>
-                            <p class="text-gray-600">Was promoted to Manufacturing Engineer with Managerial responsibilties. Began Masters Program in Software Development in late 2020</p>
+                            <h3 class="font-semibold text-xl mb-1 text-white">2020</h3>
+                            <p class="text-white">Was promoted to Manufacturing Engineer with Managerial responsibilties. Began Masters Program in Software Development in late 2020</p>
                         </div>
 
                         <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -80,15 +80,15 @@ function About() {
                         </div>
 
                         <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-4 border border-gray-300 rounded-xl">
-                            <h3 class="font-semibold text-xl mb-1 text-gray-900">2021</h3>
-                            <p class="text-gray-600"> Left Manufacturing Engineer position to finish masters program at an accelerated rate. Graduated in December of 2021</p>
+                            <h3 class="font-semibold text-xl mb-1 text-white">2021</h3>
+                            <p class="text-white"> Left Manufacturing Engineer position to finish masters program at an accelerated rate. Graduated in December of 2021</p>
                         </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="h-screen bg-gray-200 p-20 snap-start" id="education">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start" id="education">
                 <h2 className=""> Education </h2>
 
                 <div className="h-full grid grid-cols-2 gap-4">
@@ -123,19 +123,12 @@ function About() {
 
 
 
-            <section className="h-screen bg-green-300 p-20 snap-start ">
+            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start ">
                 
 
             </section>
 
-            <section className="h-screen bg-purple-200 p-20 snap-start ">
-                <h2> Hobbies</h2>
-            </section>
-
-
-            <section className="h-screen bg-amber-100 p-20 snap-start ">
-                <h2> Resume</h2>
-            </section>
+       
             
         </section>
         

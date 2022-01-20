@@ -70,9 +70,9 @@ function Home() {
             </section>
         
 
-            <section className="h-screen w-screen bg-gray-200 p-20 snap-start flex place-items-center justify-center overflow-scroll" id="skills">
+            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex place-items-center justify-center overflow-scroll" id="skills">
                 <div className="h-full w-full flex flex-col place-items-center justify-center">
-                    <div className="font-sans text-4xl "> Skills </div>
+                    <div className="font-sans text-4xl text-white"> Skills </div>
                     <div className="h-full w-full grid grid-cols-3 grid-gap-5 p-5" > 
                     {
                     skills.map( (item)=> {
@@ -98,8 +98,8 @@ function Home() {
 
 
 
-            <section className="h-screen w-screen bg-green-300 p-20 snap-start ">
-                <h2> Jump to contact page </h2>
+            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start ">
+                <h2 className="text-white"> Jump to contact page </h2>
             </section>
     
         </section>
