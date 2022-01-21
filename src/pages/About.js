@@ -18,12 +18,32 @@ function About() {
                         
                     </div>
                     
-                    <div className="flex-1 overflow-y-hidden ">
+                    <div className="flex-2 overflow-y-hidden ">
                         <h2 className="font-serif text-5xl m-4">About me </h2>
-                        <p>
-                            I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018.
-                        <br/>
-                            I 
+                        <p className="m-3">
+                            I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018. While in this program, I
+                            learned programming principles using languages such as Python, Matlab and C#. The purpose of learning programming as a Mechanical Engineer
+                            was to learn digital controls and robotics principles, data analysis, and general engineering problem solving. Fairly late into my Engineering 
+                            program, I realized that I had a passion for Programming.
+                        </p>
+
+                        <p className="m-3"> 
+                            In my professional experience, I worked as a mechanical engineer, focused on Design and prototyping. Over the next few years, I learned 
+                            more about control systems, and machine programming with PLC ladder logic. Throught this experience, I taught myself digital control principles
+                            and digital logic. I tried to keep my passion for programming alive, using data science principles (in Python) to collect and analyze machine data. 
+                        </p>
+
+                        <p className="m-3">
+                            Over the next few years I would also keep myself active off work by taking Udemy courses online. I have always had a passion for education, and this 
+                            platform was a gream means to continue to pick up new skills. I started by learning C#, and learning how to use the unity engine to make games. Using my 
+                            skills in CAD modeling, I taught myself to make 3D models using unity, and create game assets. Through this I programmed a few games. As, my interest in 
+                            programming grew more and more, i began takign more courses on other languages, including advanced Python and JavaScript classes, react, node, and .net courses.
+                        </p>
+
+                        <p className="m-3">
+                            At the start of the pandemic, I had ultimately decided that it was a great time to go back to school and pursue higher education and my passion in programming. 
+                            My workload had significantly decreased, and like many, I had to work from home for a period of a few months. I began applying to school, 
+                            and ultimately decided that I
                         </p>
                     </div>
 

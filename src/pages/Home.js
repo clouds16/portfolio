@@ -58,8 +58,8 @@ function Home() {
                         </div>
                         
                         <div> 
-                            <button className=" text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black" > Learn More </button>
-                            <button className="text-white border-2  p-3 m-3 border-slate-100"> Check out Projects </button>
+                            <button className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black" > Learn More </button>
+                            <button className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black"> Check out Projects </button>
                         </div>
                     </div>
 
