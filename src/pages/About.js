@@ -10,7 +10,7 @@ function About() {
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
-                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white " > 
+                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white overflow-scroll" > 
                     <div className="flex-1 h-full w-full overflow-y-hidden text-white flex place-items-center  justify-center">
                       
                         <img className="h-full w-auto rounded-full" src={require('../assets/selfpic.jpeg')} />
@@ -42,8 +42,12 @@ function About() {
 
                         <p className="m-3">
                             At the start of the pandemic, I had ultimately decided that it was a great time to go back to school and pursue higher education and my passion in programming. 
-                            My workload had significantly decreased, and like many, I had to work from home for a period of a few months. I began applying to school, 
-                            and ultimately decided that I
+                            My workload had significantly decreased, and like many, I had to work from home for a period of a few months. I enrolled in a Software Development program and 
+                            began my official journey into the world of software. I have since graduated in December of 2021, with a 4.0 GPA. 
+                            Through my program, I refined my knowledge of languages such as JavaScript, and Python, while also learning new ones such as TypeScript and PHP. I picked up mordern
+                            technologies, such as FrontEnd frameworks such as React Angular and Ionic, and BackEnd Technologies such as NodeJS and RESTAPI , Databases such as SQL, PostGres, and MongoDB. 
+                            Additionally, I learned cloud computing principles using AWS and IaC technologies such as Ansible. CI/CD principles and methologies, along with technologies such as Git, Jenkins, Docker and Kubernetes.
+                            Software Development Agile principles and frameworks of such methodologies such as Scrum and Kanban.
                         </p>
                     </div>
 
