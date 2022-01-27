@@ -10,7 +10,7 @@ function About() {
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
-                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white overflow-scroll" > 
+                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white " > 
                     <div className="flex-1 h-full w-full overflow-y-hidden text-white flex place-items-center  justify-center">
                       
                         <img className="h-full w-auto rounded-full" src={require('../assets/selfpic.jpeg')} />
@@ -18,7 +18,7 @@ function About() {
                         
                     </div>
                     
-                    <div className="flex-2 overflow-y-hidden ">
+                    <div className="flex-2 overflow-scroll ">
                         <h2 className="font-serif text-5xl m-4">About me </h2>
                         <p className="m-3">
                             I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018. While in this program, I

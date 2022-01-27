@@ -1,7 +1,26 @@
 import React , {useState, useEffect , useContext} from 'react' 
-
+import{ init } from '@emailjs/browser';
+import apiKey from './emailkey'
 
 function Contact() {
+
+    init("user_5kqJcXY0OCb6pE936pQR9");
+
+    let User_ID=   'user_5kqJcXY0OCb6pE936pQR9'
+    let Access_Token ='f478f849b1d2aa8b86fc4fee4289a4b0'
+
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Prevents default refresh by the browser
+        emailjs.sendForm(`gmail`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
+        .then((result) => {
+        alert("Message Sent, We will get back to you shortly", result.text);
+        },
+        (error) => {
+        alert("An error occurred, Please try again", error.text);
+        });
+        };
+
+
     return(
         <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900">
             <div class="antialiased bg-gradient-to-b from-indigo-900 to-neutral-900">
