@@ -9,7 +9,7 @@ function Projects() {
         {
             name : "University Capstone: Crypto Mock Purchasing ",
             image : "https://image.cnbcfm.com/api/v1/image/106984655-1638720074358-gettyimages-1294303237-01_jan_01_005.jpeg?v=1641825196&w=929&h=523", 
-            link: "https://github.com/clouds16/crypto-app",
+            link: "https://cranky-villani-fd5375.netlify.app/",
             description: "Crypto Purchasing and Selling Application.",
         },
         {

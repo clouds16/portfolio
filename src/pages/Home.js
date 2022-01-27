@@ -100,6 +100,7 @@ function Home() {
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start ">
                 <h2 className="text-white"> Jump to contact page </h2>
+                <iframe src="http://www.mywebsite.com/mygame" width="600" height="400" />
             </section>
     
         </section>
