@@ -1,5 +1,5 @@
 import React , {useState, useEffect , useContext} from 'react' 
-import emaijs , { init } from '@emailjs/browser';
+import emailjs , { init } from '@emailjs/browser';
 import apiKey from './emailkey'
 
 function Contact() {
