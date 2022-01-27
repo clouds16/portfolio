@@ -64,7 +64,7 @@ function Contact() {
                         </a>
                         </div>
                     </div>
-                    <div class="relative">
+                    <div class="relative hidden" >
                         <div class="absolute invisible md:visible z-0 w-40 h-40 bg-green-400 rounded-full -right-28 -top-28"></div>
                         <div class="absolute invisible md:visible z-0 w-40 h-40 bg-green-400 rounded-full -left-28 -bottom-16"></div>
                         <div class="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-full">
