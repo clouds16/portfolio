@@ -7,17 +7,18 @@ function Projects() {
 
     const projects = [
         {
-            name : "University Capstone Project",
+            name : "University Capstone: Crypto Mock Purchasing ",
+            image : "https://image.cnbcfm.com/api/v1/image/106984655-1638720074358-gettyimages-1294303237-01_jan_01_005.jpeg?v=1641825196&w=929&h=523", 
+            link: "https://github.com/clouds16/crypto-app",
+            description: "Crypto Purchasing and Selling Application.",
+        },
+        {
+            name : "University Advanced Topics Project",
             image : "https://www.boomfit.com/img/leoblog/b/1/22/lg-b-artigo%20apps.jpg", 
             link: "https://github.com/clouds16/capstone-mobileapp",
             description : "Fitness Application, Built to keep track of Gym Statistics and have a virtual Trainer. Built With React-Native, NodeJS , Express, MongoDB, Deployed using AWS Ubuntu server."
         }, 
-        {
-            name : "Weight Watching App",
-            image : "https://static.toiimg.com/photo/71941372.cms", 
-            link: "", 
-            description: "Application for Weight documentation over time. Built in Ionic Angular"
-        }, 
+   
         {
             name : "Pizza Ordering System",
             image : "https://saboryestilo.com.mx/wp-content/uploads/elementor/thumbs/masa-para-pizza-3-1-os3aa3ck56334eoe88d8hkem59xt1jziomikxlzx34.jpg", 
@@ -25,22 +26,17 @@ function Projects() {
             description: "Application Built For WebApps Class. Pizza ordering system such as Dominoes. Application built using Flask, CSS , HTML, JS. Purpose of the Project was to display knowledge of how to properly use OOP and create a website with proprietary class based system."
         },
       
+       
         {
-            name : "Cyrpto Mock Purchasing ",
-            image : "https://image.cnbcfm.com/api/v1/image/106984655-1638720074358-gettyimages-1294303237-01_jan_01_005.jpeg?v=1641825196&w=929&h=523", 
-            link: "",
-            description: "Crypto Purchasing and Selling Application.",
-        },
-        {
-            name : "Ionic Native Weather App",
-            image : "https://assets.thehansindia.com/h-upload/2021/06/29/1085116-rain.webp", 
-            link: "",
-            description: "Wether and Location Application using React Native, NodeJS backend",
+            name : "Python Hand Tracking Machine Vision Program",
+            image : "https://imageio.forbes.com/specials-images/imageserve/5da005827fa7e00007cb3db4/What-is-Machine-Vision-And-How-Is-It-Used-In-Business-Today-/960x0.jpg?fit=bounds&format=jpg&width=960", 
+            link: "https://github.com/clouds16/handtracking",
+            description: "Python hand tracking program, using computer vision program OpenCV",
         },
         {
             name : "SQL Database",
             image : "https://dv-website.s3.amazonaws.com/uploads/2020/11/kf_graphdbupdates_011221.jpg", 
-            link: "",
+            link: "https://github.com/clouds16/sql-db",
             description: "This is a SQL Database created for a potential Game server. The Database was made to show proper use of DataBase Design using Private/Foreight key principles, Table relationships (one to one, many to one)"
         }
     ]
@@ -53,7 +49,7 @@ function Projects() {
                 { projects.map( (item) => {
                     return (
 
-                    <div className="flex flex-col h-4/5 w-4/5 items-center bg-indigo-300 rounded-2xl">
+                    <div className="flex flex-col h-4/5 w-4/5 items-center bg-indigo-300 rounded-2xl ">
                         <div className='h-3/5 w-full overflow-hidden'>
                             <img src={item.image} className="w-full h-auto"></img>
                         </div>
