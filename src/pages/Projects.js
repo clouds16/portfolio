@@ -38,6 +38,12 @@ function Projects() {
             image : "https://dv-website.s3.amazonaws.com/uploads/2020/11/kf_graphdbupdates_011221.jpg", 
             link: "https://github.com/clouds16/sql-db",
             description: "This is a SQL Database created for a potential Game server. The Database was made to show proper use of DataBase Design using Private/Foreight key principles, Table relationships (one to one, many to one)"
+        },
+        {
+            name : "University Capstone: Crypto Mock Purchasing ",
+            image : "https://image.cnbcfm.com/api/v1/image/106984655-1638720074358-gettyimages-1294303237-01_jan_01_005.jpeg?v=1641825196&w=929&h=523", 
+            link: "https://cranky-villani-fd5375.netlify.app/",
+            description: "Crypto Purchasing and Selling Application.",
         }
     ]
 
@@ -68,7 +74,7 @@ function Projects() {
             
                 </div>
 
-            </div>5
+            </div>
             
 
         </section>
