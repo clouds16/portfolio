@@ -1,6 +1,7 @@
 import React , {useState, useEffect , useContext} from 'react' 
 import emailjs , { init } from '@emailjs/browser';
 import apiKey from './emailkey'
+import './home.css'
 
 function Contact() {
 
@@ -40,7 +41,7 @@ function Contact() {
         <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900">
             <div className="antialiased bg-gradient-to-b from-indigo-900 to-neutral-900">
                 <div className="flex w-full min-h-screen justify-center items-center">
-                    <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-indigo-200 w-full max-w-4xl p-5 sm:p-8 rounded-lg shadow-lg text-white overflow-hidden">
+                    <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 border-2 border-white w-full max-w-4xl p-5 sm:p-8 rounded-lg shadow-lg text-white overflow-hidden">
                     <div className="flex flex-col md:flex-1 space-y-8 justify-between">
                         <div>
                         <h1 className="font-bold text-4xl tracking-wide">Get in Touch </h1>
@@ -63,6 +64,31 @@ function Contact() {
                             <ion-icon name="location" className="text-green-300 text-xl"></ion-icon>
                             <span> hector-alvarez-toledo , LinkedIn</span>
                         </div>
+
+                        <div class="wrapper">
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" ></link>
+                            <div class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </div>
+                            <div class="icon twitter">
+                                <div class="tooltip">Twitter</div>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </div>
+                            <div class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </div>
+                            <div class="icon github">
+                                <div class="tooltip">Github</div>
+                                <span><i class="fab fa-github"></i></span>
+                            </div>
+                            <div class="icon youtube">
+                                <div class="tooltip">Youtube</div>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            </div>
+
                         </div>
                         <div className="flex space-x-4 text-lg">
                         <a href="#">
