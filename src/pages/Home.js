@@ -3,14 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import Programming from '../assets/homepage.jpeg'
 import './home.css'
+import Background from './components/background'
 
-function Home() {
+
+function Home( props ) {
+
+    const button1Click = () => this.props.history.push('/about');
+    const button2Click = () => this.props.history.push('/projects');
 
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen  ">
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-row sm:flex- place-items-center justify-center text-white ">
-                <div className="h-4/5 w-4/5 rounded-3xl flex justify-center place-items-center overflow-scroll">
+                <div className="h-3/5 w-3/5 rounded-3xl flex justify-center place-items-center overflow-scroll border-white border-2">
                     <div className="flex-1 m-4 flex flex-col "> 
                         <h1 className="text-4xl font-serif justify-left">Welcome </h1>
                         <h2 className='m-3'>Meet your new Software Engineer/Developer</h2>
@@ -25,7 +30,7 @@ function Home() {
                                 <div class="tooltip">Twitter</div>
                                 <span><i class="fab fa-twitter"></i></span>
                             </div>
-                            <div class="icon instagram h-20 w-auto">
+                            <div class="icon instagram">
                                 <div class="tooltip">Instagram</div>
                                 <span><i class="fab fa-instagram"></i></span>
                             </div>
@@ -41,18 +46,18 @@ function Home() {
                         </div>
                         
                         <div> 
-                            <button className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black" > Learn More </button>
-                            <button className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black"> Check out Projects </button>
+                            <a href="/about"> <button className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black" > Learn More </button></a>
+                            <a href="/projects"> <button  className="text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black"> Check out Projects </button></a>
+                            
                         </div>
                     </div>
 
-                    <div className="flex-1 m-4" id="Right-image"> 
-                        <img src={Programming} className=" rounded-3xl outline-2 border-black shadow-md ring-offset-2" />
-                    </div>
+               
                 </div>
             </section>
 
-    
+
+            
         </section>
     )
 }
