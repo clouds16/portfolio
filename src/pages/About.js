@@ -234,14 +234,6 @@ function About() {
                 </div>
             </section>
             
-
-
-
-            <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start ">
-                
-          
-            </section>
-
        
             
         </section>

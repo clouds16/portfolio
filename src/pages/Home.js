@@ -2,7 +2,7 @@ import React , {useState, useEffect , useContext} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import Programming from '../assets/homepage.jpeg'
-
+import './home.css'
 
 function Home() {
 
@@ -15,7 +15,29 @@ function Home() {
                         <h1 className="text-4xl font-serif justify-left">Welcome </h1>
                         <h2 className='m-3'>Meet your new Software Engineer/Developer</h2>
                         <div className='m-3' title="Icons">
-                            <button> <FontAwesomeIcon icon={faFacebookF} /></button>
+                        <div class="wrapper">
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" ></link>
+                            <div class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </div>
+                            <div class="icon twitter">
+                                <div class="tooltip">Twitter</div>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </div>
+                            <div class="icon instagram h-20 w-auto">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </div>
+                            <div class="icon github">
+                                <div class="tooltip">Github</div>
+                                <span><i class="fab fa-github"></i></span>
+                            </div>
+                            <div class="icon youtube">
+                                <div class="tooltip">Youtube</div>
+                                <span><i class="fab fa-youtube"></i></span>
+                            </div>
+                            </div>
                         </div>
                         
                         <div> 
