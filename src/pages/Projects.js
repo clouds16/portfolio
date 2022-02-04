@@ -49,23 +49,23 @@ function Projects() {
 
 
     return(
-        <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 flex justify-center place-items-center ">
-            <div className="h-4/5 w-5/6 flex justify-center place-items-center overflow-scroll " >
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1"> 
+        <section className="h-auto w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 flex justify-center place-items-center ">
+            <div className="h-full w-full flex justify-center place-items-center p-10 my-10 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20"> 
                 { projects.map( (item) => {
                     return (
 
-                    <div className="flex flex-col h-4/5 w-4/5 items-center bg-indigo-300 rounded-2xl ">
-                        <div className='h-3/5 w-full overflow-hidden'>
-                            <img src={item.image} className="w-full h-auto"></img>
+                    <div className=" border-2 border-white rounded-2xl p-5 ">
+                        <div className='h-3/5 w-full overflow-hidden text-white'>
+                            <img src={item.image} className="w-full h-auto text-white"></img>
                         </div>
                         
                         <div className="h-1/5 w-full overflow-hidden "> 
                             <h2 className="text-white">  {item.name} </h2>
-                            <h3> {item.description} </h3>
+                            <h3 className="text-white"> {item.description} </h3>
                         </div>
 
-                        <button className="h-1/5 w-full text-white border-2  p-3 m-3 border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black overflow-hidden "> <a href={item.link}> Open Project on GitHub</a></button>
+                        <button className="h-1/5 w-full text-white border-2   border-slate-100 hover:text-black hover:bg-slate-100 hover:border-black overflow-hidden "> <a href={item.link}> Open Project on GitHub</a></button>
                         
                     
                     </div> 
