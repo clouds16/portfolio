@@ -8,14 +8,13 @@ import Background from './components/background'
 
 function Home( props ) {
 
-    const button1Click = () => this.props.history.push('/about');
-    const button2Click = () => this.props.history.push('/projects');
+
 
     return(
-        <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen  ">
+        <section className="h-screen w-full snap-y snap-mandatory overflow-scroll ">
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-row sm:flex- place-items-center justify-center text-white ">
-                <div className="h-3/5 w-3/5 rounded-3xl flex justify-center place-items-center overflow-scroll border-white border-2">
+                <div className="h-auto w-5/6 sm:h-3/5 sm:w-3/5 rounded-3xl flex justify-center place-items-center overflow-scroll border-white border-2" id="Border">
                     <div className="flex-1 m-4 flex flex-col "> 
                         <h1 className="text-4xl font-serif justify-left">Welcome </h1>
                         <h2 className='m-3'>Meet your new Software Engineer/Developer</h2>
@@ -56,8 +55,6 @@ function Home( props ) {
                 </div>
             </section>
 
-
-            
         </section>
     )
 }

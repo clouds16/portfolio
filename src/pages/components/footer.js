@@ -4,7 +4,7 @@ import './footer.css'
 function Footer(){
     return (
 
-        <section class="bg-zinc-700 h-auto w-screen flex flex-col sm:flex-row justify-center place-items-center">
+        <section class="bg-zinc-700 h-auto w-full flex flex-col sm:flex-row justify-center place-items-center">
             <div className="flex justify-center place-items-center p-3"> 
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                 <a href="hect16@gmail.com"><i class="fa fa-google google" id="apple"></i></a>

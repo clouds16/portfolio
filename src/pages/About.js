@@ -51,54 +51,9 @@ function About() {
     return(
         <section className="snap-y snap-mandatory overflow-scroll h-screen w-screen " id="aboutme" >
 
-            <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
-                <div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white " > 
-                    <div className="flex-1 h-full w-full overflow-y-hidden text-white flex place-items-center  justify-center">
-                      
-                        <img className="h-full w-auto rounded-full" src={require('../assets/selfpic.jpeg')} />
-                        
-                        
-                    </div>
-                    
-                    <div className="flex-2 overflow-scroll ">
-                        <h2 className="font-serif text-5xl m-4">About me </h2>
-                        <p className="m-3">
-                            I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018. While in this program, I
-                            learned programming principles using languages such as Python, Matlab and C#. The purpose of learning programming as a Mechanical Engineer
-                            was to learn digital controls and robotics principles, data analysis, and general engineering problem solving. Fairly late into my Engineering 
-                            program, I realized that I had a passion for Programming.
-                        </p>
-
-                        <p className="m-3"> 
-                            In my professional experience, I worked as a mechanical engineer, focused on Design and prototyping. Over the next few years, I learned 
-                            more about control systems, and machine programming with PLC ladder logic. Throught this experience, I taught myself digital control principles
-                            and digital logic. I tried to keep my passion for programming alive, using data science principles (in Python) to collect and analyze machine data. 
-                        </p>
-
-                        <p className="m-3">
-                            Over the next few years I would also keep myself active off work by taking Udemy courses online. I have always had a passion for education, and this 
-                            platform was a gream means to continue to pick up new skills. I started by learning C#, and learning how to use the unity engine to make games. Using my 
-                            skills in CAD modeling, I taught myself to make 3D models using unity, and create game assets. Through this I programmed a few games. As, my interest in 
-                            programming grew more and more, i began takign more courses on other languages, including advanced Python and JavaScript classes, react, node, and .net courses.
-                        </p>
-
-                        <p className="m-3">
-                            At the start of the pandemic, I had ultimately decided that it was a great time to go back to school and pursue higher education and my passion in programming. 
-                            My workload had significantly decreased, and like many, I had to work from home for a period of a few months. I enrolled in a Software Development program and 
-                            began my official journey into the world of software. I have since graduated in December of 2021, with a 4.0 GPA. 
-                            Through my program, I refined my knowledge of languages such as JavaScript, and Python, while also learning new ones such as TypeScript and PHP. I picked up mordern
-                            technologies, such as FrontEnd frameworks such as React Angular and Ionic, and BackEnd Technologies such as NodeJS and RESTAPI , Databases such as SQL, PostGres, and MongoDB. 
-                            Additionally, I learned cloud computing principles using AWS and IaC technologies such as Ansible. CI/CD principles and methologies, along with technologies such as Git, Jenkins, Docker and Kubernetes.
-                            Software Development Agile principles and frameworks of such methodologies such as Scrum and Kanban.
-                        </p>
-                    </div>
-
-                    
-                </div>
-            </section>
 
             <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex place-items-center justify-center " id="skills">
-                <div className="h-full w-full flex flex-col place-items-center justify-center sm:h-auto overflow-scroll">
+                <div className="h-full w-full flex flex-col place-items-center justify-center sm:h-auto">
                     <div className="font-sans text-4xl text-white"> Skills </div>
                     <div className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-gap-2 md:grid-gap-5 p-5 " > 
                     {
@@ -296,5 +251,52 @@ export default About ;
         </ul>
     </div>
 
+</div>
+</section> */}
+
+
+{/* <section className="h-screen w-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start  flex place-items-center justify-center ">
+<div className="flex-1 h-3/4 w-1/3 rounded-3xl flex flex-col justify-center place-items-center p-5 text-white " > 
+    <div className="flex-1 h-full w-full overflow-y-hidden text-white flex place-items-center  justify-center">
+      
+        <img className="h-full w-auto rounded-full" src={require('../assets/selfpic.jpeg')} />
+        
+        
+    </div>
+    
+    <div className="flex-2 overflow-scroll ">
+        <h2 className="font-serif text-5xl m-4">About me </h2>
+        <p className="m-3">
+            I graduated with a Bachelors degree in Mechanical Engineering from University of California, Irvine in 2018. While in this program, I
+            learned programming principles using languages such as Python, Matlab and C#. The purpose of learning programming as a Mechanical Engineer
+            was to learn digital controls and robotics principles, data analysis, and general engineering problem solving. Fairly late into my Engineering 
+            program, I realized that I had a passion for Programming.
+        </p>
+
+        <p className="m-3"> 
+            In my professional experience, I worked as a mechanical engineer, focused on Design and prototyping. Over the next few years, I learned 
+            more about control systems, and machine programming with PLC ladder logic. Throught this experience, I taught myself digital control principles
+            and digital logic. I tried to keep my passion for programming alive, using data science principles (in Python) to collect and analyze machine data. 
+        </p>
+
+        <p className="m-3">
+            Over the next few years I would also keep myself active off work by taking Udemy courses online. I have always had a passion for education, and this 
+            platform was a gream means to continue to pick up new skills. I started by learning C#, and learning how to use the unity engine to make games. Using my 
+            skills in CAD modeling, I taught myself to make 3D models using unity, and create game assets. Through this I programmed a few games. As, my interest in 
+            programming grew more and more, i began takign more courses on other languages, including advanced Python and JavaScript classes, react, node, and .net courses.
+        </p>
+
+        <p className="m-3">
+            At the start of the pandemic, I had ultimately decided that it was a great time to go back to school and pursue higher education and my passion in programming. 
+            My workload had significantly decreased, and like many, I had to work from home for a period of a few months. I enrolled in a Software Development program and 
+            began my official journey into the world of software. I have since graduated in December of 2021, with a 4.0 GPA. 
+            Through my program, I refined my knowledge of languages such as JavaScript, and Python, while also learning new ones such as TypeScript and PHP. I picked up mordern
+            technologies, such as FrontEnd frameworks such as React Angular and Ionic, and BackEnd Technologies such as NodeJS and RESTAPI , Databases such as SQL, PostGres, and MongoDB. 
+            Additionally, I learned cloud computing principles using AWS and IaC technologies such as Ansible. CI/CD principles and methologies, along with technologies such as Git, Jenkins, Docker and Kubernetes.
+            Software Development Agile principles and frameworks of such methodologies such as Scrum and Kanban.
+        </p>
+    </div>
+
+    
 </div>
 </section> */}
