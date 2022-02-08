@@ -59,7 +59,7 @@ function About() {
                     {
                     skills.map( (item)=> {
                         return (
-                            <div className="h-5/6 w-5/6 flex flex-col grow flex-wrap place-items-center justify-center bg-white p-2 m-3 rounded-3xl shadow-2xl overflow-y-hidden hover:scale-125 hover:transition-transform hover:bg-amber-400 hover:text-white" id="card">
+                            <div className="h-5/6 w-5/6 flex flex-col grow flex-wrap place-items-center justify-center border-2 border-white text-white p-2 m-3 rounded-3xl shadow-2xl overflow-y-hidden hover:scale-125 hover:transition-transform hover:bg-amber-400 hover:text-white" id="card">
                                 <div className="flex-1 h-full w-full  overflow-y-hidden flex flex-col justify-center place-items-center" >
                                     <h2 className=" font-serif text-2xl">{item.title}</h2>
                                     <h2 className= "font-serif text-base text-white">{item.detail}</h2>
@@ -143,9 +143,9 @@ function About() {
             </section>
 
             <section className="h-screen bg-gradient-to-b from-indigo-900 to-neutral-900 p-20 snap-start flex flex-col place-items-center justify-center" id="education">
-                <h2 className="text-white text-6xl font-mono"> Education </h2>
+                <h2 className="text-white text-5xl"> Education </h2>
 
-                <div className="h-4/5 w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white overflow-scroll scroll-m-0">
+                <div className="h-full w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white scroll-m-0">
                     <div className="m-5 card rounded-lg flex flex-col">
                         <div className='flex-1 flex flex-col place-items-center justify-center' id="text">
                             <h3 className=" text-3xl font-bold"> Santa Barbara City College </h3>

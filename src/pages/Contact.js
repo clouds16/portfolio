@@ -8,26 +8,28 @@ function Contact() {
     init("user_5kqJcXY0OCb6pE936pQR9");
 
     let User_ID=   'user_5kqJcXY0OCb6pE936pQR9'
-    let Access_Token ='f478f849b1d2aa8b86fc4fee4289a4b0'
+    let Access_Token ='f478f849b1d2aa8b86fc4fee4289a4b0';
+    let ServiceID = 'service_8qupk3k'
+    let TemplateID = 'template_one'
 
 
     let [email, setEmail] = useState("")
     let [name, setName] = useState('')
     let [message , setMessage] = useState('')
 
-    let submit = {
-        from_name : name,
+    let submitForm = {
+        name : name,
         message : message,
         email : email,
     }
 
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevents default refresh by the browser
-        console.log(submit, email, message, name)
+
         alert("trying to submit")
 
 
-        emailjs.sendForm(`gmail`, apiKey.TEMPLATE_ID, submit , apiKey.USER_ID)
+        emailjs.send(ServiceID , TemplateID , submitForm , User_ID )
         .then((result) => {
         alert("Message Sent, We will get back to you shortly", result.text);
         },
@@ -112,17 +114,17 @@ function Contact() {
                         <form className="flex flex-col space-y-4">
                             <div>
                             <label for="" className="text-sm">Your Name</label>
-                            <input  onChange={ (e) => { setName(e); console.log(name) } } type="text" placeholder="Name" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"/>
+                            <input  onChange={ (e) => { setName(e.target.value); console.log(name) } } type="text" placeholder="Name" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"/>
                             </div>
                             <div>
                             <label for="" className="text-sm">Your Email</label>
-                            <input onChange={setEmail} type="email" placeholder="Email" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"/>
+                            <input onChange={ (e) => {setEmail(e.target.value) ; console.log(email) }} type="email" placeholder="Email" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"/>
                             </div>
                             <div>
                             <label for="" className="text-sm">Your Message</label>
-                            <textarea onChange={setMessage} type="email" placeholder="Message" rows="4" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"></textarea>
+                            <textarea onChange={ e => setMessage(e.target.value)} type="email" placeholder="Message" rows="4" className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-green-300"></textarea>
                             </div>
-                            <button type="submit" value="Submit" className="inline-block self-end bg-green-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm" onSubmit={handleSubmit}>Send Message</button>
+                            <button onClick={handleSubmit} className="inline-block self-end bg-green-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm" onSubmit={handleSubmit}>Send Message</button>
                         </form>
                         </div>
                     </div>
