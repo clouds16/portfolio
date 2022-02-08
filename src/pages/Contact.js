@@ -26,12 +26,9 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevents default refresh by the browser
 
-        alert("trying to submit")
-
-
         emailjs.send(ServiceID , TemplateID , submitForm , User_ID )
         .then((result) => {
-        alert("Message Sent, We will get back to you shortly", result.text);
+        alert("Message Successfully Sent, I will get back to you shortly", result.text);
         },
         (error) => {
         alert("An error occurred, Please try again", error.text);
